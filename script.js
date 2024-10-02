@@ -13,13 +13,15 @@ const specialOffers = [
 ];
 
 const reviews = [
-    { img: "Assets/images/review1.png", text: "Great experience! Found the perfect tour, and tech support was amazing!", name: "Jane Doe", occupation: "Travel Blogger" },
-    { img: "Assets/images/review2.png", text: "I loved the service. Everything was smooth and well-organized. Will book again!", name: "John Smith", occupation: "Photographer" }
+    { img: "Assets/images/review1.png", text: "I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.", name: "Jannike Borg", occupation: "Publisher" },
+    { img: "Assets/images/review2.png", text: "I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.", name: "LeBron Durant", occupation: "Flight Attendant" },
+    { img: "Assets/images/review3.png", text: "I quickly found the right tour for me, but I had a few questions about the hotel, I wrote to tech support and they answered all my questions within an hour. The vacation itself was perfect. Thank you very much. I will come back again and again.", name: "Kaarel Piho", occupation: "Chiropodist" }
 ];
 
 const recentPosts = [
-    { img: "Assets/images/recent1.png", date: "June 1, 2023", readTime: "3 minutes", title: "Exploring Rome", description: "Discover the hidden gems in the Eternal City." },
-    { img: "Assets/images/recent2.png", date: "May 22, 2023", readTime: "5 minutes", title: "A Weekend in Paris", description: "A short guide to enjoying the best of Paris in just a few days." }
+    { img: "Assets/images/recent1.png", date: "May 23, 2022", readTime: "5 minutes", title: "My trip to Athens", description: "It would seem that in a city where Theseus, Plato and Epicurus once walked, the very idea of the subway is alien to the city, but already..." },
+    { img: "Assets/images/recent2.png", date: "May 22, 2023", readTime: "1 minutes", title: "Vilnius resorts", description: "I haven't seen any resorts in Vilnius, but there are wonderful people and pubs" },
+    { img: "Assets/images/recent3.png", date: "May 20, 2024", readTime: "15 minutes", title: "Tips for flying on a plane", description: "If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you" }
 ];
 
 // Function to render the "Why Choose Us" section
@@ -73,6 +75,8 @@ const renderReviews = (reviews) => {
             </div>
         `;
     });
+    container.innerHTML += `
+    <button class="review-btn">More Reviews</button>`;
 };
 
 // Function to render the "Recent Posts" section
