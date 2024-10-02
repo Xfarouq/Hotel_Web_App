@@ -33,8 +33,10 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    margin-bottom: 10px;
 }
+/* header .icon{
+    display: none;
+} */
 .logo-button{
     display: flex;
     align-items: center;
@@ -57,18 +59,36 @@ span.logo{
 }
 .nav-menu{
     display: none;
+    padding: 20px;
 }
 .nav-menu ul{
     display: flex;
+    flex-direction: column;
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin-top: 60px;
 }
 .nav-menu li {
-    margin-left: 20px;
+    margin-bottom: 40px;
 }
 .nav-menu a {
     text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.nav-menu .signs{
+    display: flex;
+}
+.nav-menu .signs p{
+    margin-right: 32px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--reddish-brown);
+    border-bottom: 2px dotted var(--reddish-brown);
+    margin-bottom: 200px;
+}
+.nav-menu .socials img{
+    width: 32px;
 }
 .close-menu{
     font-size: 70px;
@@ -76,6 +96,9 @@ span.logo{
     border: none;
     cursor: pointer;
     position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 section.banner{
     background: url(Assets/images/Header\ Image.png);
@@ -333,7 +356,7 @@ section.newsletter{
     padding: 5px;
     width: 40px;
     top: 0;
-    left: 90%;
+    left: 93%;
     right: 0;
 }
 .newsletter img.divider{
@@ -346,7 +369,7 @@ section.newsletter{
     color: var(--light-blue);
     margin-bottom: 12px;
 }
-.newsletter .socials{
+.socials{
     display: flex;
     gap: 12px;
     margin-bottom: 16px;

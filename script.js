@@ -24,7 +24,6 @@ const recentPosts = [
     { img: "Assets/images/recent3.png", date: "May 20, 2024", readTime: "15 minutes", title: "Tips for flying on a plane", description: "If you have a fear of flying, here's a helpful tip: bring your co-pilot so you can take a nap while he steers the plane for you" }
 ];
 
-// Function to render the "Why Choose Us" section
 const renderWhySection = (whyContent) => {
     const container = document.querySelector('.whys');
     container.innerHTML = "";
@@ -39,7 +38,6 @@ const renderWhySection = (whyContent) => {
     });
 };
 
-// Function to render the "Special Offers" section
 const renderSpecialOffers = (specialOffers) => {
     const container = document.querySelector('.special-offer');
     specialOffers.forEach(offer => {
@@ -63,7 +61,6 @@ const renderSpecialOffers = (specialOffers) => {
     });
 };
 
-// Function to render the "Reviews" section
 const renderReviews = (reviews) => {
     const container = document.querySelector('.reviews');
     reviews.forEach(review => {
@@ -79,7 +76,6 @@ const renderReviews = (reviews) => {
     <button class="review-btn">More Reviews</button>`;
 };
 
-// Function to render the "Recent Posts" section
 const renderRecentPosts = (recentPosts) => {
     const container = document.querySelector('.recent-posts');
     recentPosts.forEach(post => {
@@ -100,7 +96,6 @@ const renderRecentPosts = (recentPosts) => {
     });
 };
 
-// Call the functions to render the sections
 renderWhySection(whyContent);
 renderSpecialOffers(specialOffers);
 renderReviews(reviews);
