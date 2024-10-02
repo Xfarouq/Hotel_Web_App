@@ -1,4 +1,18 @@
-// Data for each section
+// Select elements
+const menuToggle = document.getElementById('menuToggle'); // Hamburger icon
+const navMenu = document.getElementById('navMenu');       // Navigation menu
+const closeMenu = document.getElementById('closeMenu');   // Close button
+
+// Open the navigation menu when the hamburger icon is clicked
+menuToggle.addEventListener('click', () => {
+    navMenu.style.display = 'flex';  // Show the nav menu
+});
+
+// Close the navigation menu when the close button is clicked
+closeMenu.addEventListener('click', () => {
+    navMenu.style.display = 'none';  // Hide the nav menu
+});
+
 const whyContent = [
     { img: "Assets/images/payment img.svg", title: "Payment methods", description: "We have a lot of them, from cryptocurrencies to barter for potatoes" },
     { img: "Assets/images/search img.svg", title: "Simple search process", description: "We checked it out, even the kid did it, but it was my mom's friend's son" },
