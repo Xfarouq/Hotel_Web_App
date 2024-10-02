@@ -1,14 +1,15 @@
 // Data for each section
 const whyContent = [
-    { img: "Assets/images/payment img.svg", title: "Flexible Payment Options", description: "We offer a wide variety of payment options, from credit cards to cryptocurrencies." },
-    { img: "Assets/images/search img.svg", title: "Easy Search Process", description: "Our user-friendly search helps you find what you need with just a few clicks." },
-    { img: "Assets/images/247 img.svg", title: "24/7 Customer Support", description: "Need help? Our support team is available around the clock to assist you." },
-    { img: "Assets/images/cat img.svg", title: "Friendly Service", description: "We pride ourselves on providing friendly and helpful service to our customers." }
+    { img: "Assets/images/payment img.svg", title: "Payment methods", description: "We have a lot of them, from cryptocurrencies to barter for potatoes" },
+    { img: "Assets/images/search img.svg", title: "Simple search process", description: "We checked it out, even the kid did it, but it was my mom's friend's son" },
+    { img: "Assets/images/247 img.svg", title: "24/7 Support", description: "Is there something you don't understand? Feel free to call us. Phone number in the footer" },
+    { img: "Assets/images/cat img.svg", title: "We are nice", description: "Fantasy is over, there will be something really convincing here"}
 ];
 
 const specialOffers = [
     { img: "Assets/images/Special Offers img1.png", rating: "Assets/images/rating.svg", favorite: "Assets/images/favorite.svg", title: "Beachside Resort", date: "15th Oct - 20th Oct", price: "$1200", nights: "5 nights" },
-    { img: "Assets/images/Special Offers img2.png", rating: "Assets/images/rating.svg", favorite: "Assets/images/favorite.svg", title: "Mountain Escape", date: "1st Nov - 5th Nov", price: "$1400", nights: "4 nights" }
+    { img: "Assets/images/Special Offers img2.png", rating: "Assets/images/rating.svg", favorite: "Assets/images/favorite.svg", title: "Mountain Escape", date: "1st Nov - 5th Nov", price: "$1400", nights: "4 nights" },
+    { img: "Assets/images/Special Offers img3.png", rating: "Assets/images/rating.svg", favorite: "Assets/images/favorite.svg", title: "Wilderness Club at Big Ceddar", date: "1st Nov - 5th Nov", price: "$1600", nights: "6 nights" }
 ];
 
 const reviews = [
