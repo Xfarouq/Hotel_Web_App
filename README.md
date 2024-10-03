@@ -28,7 +28,7 @@ This project is built using HTML, CSS, and JavaScript, providing a visually appe
 
 ## Live Demo
 
-- Check out the live demo of the project: [Live Demo](https://example-live-demo-link.com)
+- Check out the live demo of the project: [Live Demo](https://hotel-web-app-edq3.onrender.com/)
 
 ## Technologies Used
 
