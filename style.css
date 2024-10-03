@@ -39,6 +39,9 @@ header{
     align-items: center;
     gap: 30px;
 }
+.logo-nav{
+    margin-left: 30px;
+}
 .menu-toggle{
     font-size: 35px;
     width: 32px;
