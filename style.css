@@ -78,6 +78,7 @@ span.logo{
 }
 .nav-menu .signs{
     display: flex;
+    height: 150px;
 }
 .nav-menu .signs p{
     margin-right: 32px;
@@ -390,15 +391,22 @@ section.newsletter{
         position: absolute;
         top: 0;
         left: 0;
+        width: 100%;
         z-index: 1;
         background-color: white;
         padding: 20px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease
     }
     .close-menu {
         position: absolute;
         top: 10px;
         right: 200px;
-        font-size: 40px;
+        font-size: 45px;
+        width: 15%;
+        margin-top: 4px;
+    }
+    body.no-scroll {
+        overflow: hidden;
     }
 }

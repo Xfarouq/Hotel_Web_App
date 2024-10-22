@@ -6,11 +6,13 @@ const closeMenu = document.getElementById('closeMenu');   // Close button
 // Open the navigation menu when the hamburger icon is clicked
 menuToggle.addEventListener('click', () => {
     navMenu.style.display = 'flex';  // Show the nav menu
+    document.body.classList.add('no-scroll');
 });
 
 // Close the navigation menu when the close button is clicked
 closeMenu.addEventListener('click', () => {
     navMenu.style.display = 'none';  // Hide the nav menu
+    document.body.classList.remove('no-scroll');
 });
 
 const whyContent = [
